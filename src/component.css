@@ -1,0 +1,14 @@
+.displayFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    background-color: #262a33;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+}
+body{
+    overflow-x: hidden;
+}
