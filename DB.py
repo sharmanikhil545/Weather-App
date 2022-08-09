@@ -74,7 +74,7 @@ def main():
     print(cur.execute(sqlTwo))
 
 
-@app.route('/getAll')
+@app.route('/')
 def getAll():
     cur = conn.cursor()
     SqlGetAll = "SELECT TEMP, TEMP_MIN, TEMP_MAX, CITY, FEELS_LIKE, HUMIDITY, WINDSPEED, MAIN, DATE, ICON, ID FROM WEATHER_APP;"
