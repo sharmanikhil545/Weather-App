@@ -31,5 +31,5 @@ six==1.16.0
 snowflake==0.0.3
 snowflake-connector-python==2.7.9
 urllib3==1.26.11
-Werkzeug==2.2.1
+Werkzeug==2.2.2
 yarg==0.1.9
